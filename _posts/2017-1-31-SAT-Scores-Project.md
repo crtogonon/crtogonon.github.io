@@ -121,6 +121,8 @@ plt.axis([0, 100, 0, 15])                                              # sets th
 plt.show()
 ```
 
+<img src="https://git.generalassemb.ly/crtogonon/project-1-sat-scores/blob/master/assets/histrate.png?raw=true">
+
 ```python
 y=math_col['math']
 
@@ -132,6 +134,8 @@ plt.axis([0, 800, 0, 18])
 plt.show()
 ```
 
+<img src="https://git.generalassemb.ly/crtogonon/project-1-sat-scores/blob/master/assets/histmath.png?raw=true">
+
 ```python
 z=verbal_col['verbal']
 
@@ -142,6 +146,8 @@ plt.xlabel('Verbal Scores')
 plt.axis([0, 800, 0, 16])
 plt.show()
 ```
+
+<img src="https://git.generalassemb.ly/crtogonon/project-1-sat-scores/blob/master/assets/histverbal.png?raw=true">
 
 The typical assumption for data distribution is that the data of a sample follows a normal distribution. A graph of the data should show a bell curve. When it comes to this dataset, that generally holds true for the math and verbal scores distribution. However the participation rate distribution does not.
 
@@ -158,6 +164,8 @@ plt.xlabel('Math Score')                           # sets x axis label
 plt.show()
 ```
 
+<img src="https://git.generalassemb.ly/crtogonon/project-1-sat-scores/blob/master/assets/scatscores.png?raw=true">
+
 ```python
 x2=prate_col['rate']
 y2=math_col['math']
@@ -168,6 +176,8 @@ plt.xlabel('Participation Rate')
 plt.show()
 ```
 
+<img src="https://git.generalassemb.ly/crtogonon/project-1-sat-scores/blob/master/assets/scatmath.png?raw=true">
+
 ```python
 x2=prate_col['rate']
 y2=verbal_col['verbal']
@@ -177,6 +187,8 @@ plt.ylabel('Verbal Score')
 plt.xlabel('Participation Rate')
 plt.show()
 ```
+
+<img src="https://git.generalassemb.ly/crtogonon/project-1-sat-scores/blob/master/assets/scatverbal.png?raw=true">
 
 Examining the scatterplots, there were some interesting relationships to note. Generally, it looks like the higher that students scored in math, the better they scored in verbal as well. Students generally scored similarly in both section. Also, states with lower participation rates had higher average scores.
 
@@ -191,6 +203,8 @@ plt.ylabel('Participation Rate')             # sets y axis label
 plt.show()
 ```
 
+<img src="https://git.generalassemb.ly/crtogonon/project-1-sat-scores/blob/master/assets/boxrate.png?raw=true">
+
 ```python
 y3=math_col['math']
 
@@ -200,6 +214,8 @@ plt.ylabel('Math Score')
 plt.show()
 ```
 
+<img src="https://git.generalassemb.ly/crtogonon/project-1-sat-scores/blob/master/assets/boxmath.png?raw=true">
+
 ```python
 z3=verbal_col['verbal']
 
@@ -208,6 +224,8 @@ plt.title('Box Plot for Verbal Scores')
 plt.ylabel('Verbal Score')
 plt.show()
 ```
+
+<img src="https://git.generalassemb.ly/crtogonon/project-1-sat-scores/blob/master/assets/boxverbal.png?raw=true">
 
 Finally I used Tableau to create heat maps for each variable. The heat maps show a map of the United states and higher values make each state appear darker for each variable.
 
