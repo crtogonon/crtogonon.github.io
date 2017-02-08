@@ -14,11 +14,11 @@ I then took a look at how long songs stayed on the chart and I found something v
 
 After looking at distributions of the data, I wanted to compare different variables to see if I could find any relationships between certain attributes of songs. In a scatter plot of songth length to highest position there did not appear to be much of a correlation for song lengths up to 350 seconds. However, most of the longer songs made it to at least the top 40. From a separate scatter plot, the average position for songs longer than 350 seconds tended to be between 40 and 80. Another chart showed me that songs tend to enter the Top 100 at higher positions with song lengths between 200 and about 275 seconds. In a chart of entry position against the number of weeks on the chart, I saw once again that a lot of songs spent exactly 20 weeks on the chart, but a lot of songs also had less time than that. One interesting thing I found on that chart was that the three songs that spent the most time in the Top 100 all had an entry position of about 81.
 
-<img src='https://git.generalassemb.ly/crtogonon/project-2-billboard/blob/master/assets/EP_and_W.png?raw=true'>
+<img src='https://github.com/crtogonon/crtogonon.github.io/blob/master/images/EP_and_W.png?raw=true'>
 
 Finally, the last thing I wanted to know about the data was how songs performed over time. To do this I made a line plot. I was most curious about the songs that reached number 1 so I only included them in the chart. There were a total of 17 of them.
 
-<img src='https://git.generalassemb.ly/crtogonon/project-2-billboard/blob/master/assets/POT1.png?raw=true'>
+<img src='https://github.com/crtogonon/crtogonon.github.io/blob/master/images/POT1.png?raw=true'>
 
 I was able to gain some cool insights into the information from looking at this chart. First, it looks like most songs that get to the top spot do so within about 10 to 20 weeks of entering the chart. Also, it looks like a lot of songs get taken off of the chart after they have slipped to the 50th position. The most interesting thing to me about this chart is that there is one song that cimbs into the twenties but slips back down to 50 and disappears from the chart only to reappear about 2 months later and eventually climbs up to number 1. Just like you probably do right now, I HAD to know which song it was. So I looked through the data and found out that it was "Amazed" by Lonestar. You're welcome. 
 
